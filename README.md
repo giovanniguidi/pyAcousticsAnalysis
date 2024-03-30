@@ -1,4 +1,4 @@
-### Algoritmi di analisi acustiche per Python
+### Algoritmi per analisi di misure acustiche in Python
 
 Questo tool fornisce alcuni algoritmi a supporto dell'analisi di misure fonometriche ambientali e edili.
 Al momento l'import dei dati è possibile solo sui fonometri Larson & Davis, tramite il software G4 
