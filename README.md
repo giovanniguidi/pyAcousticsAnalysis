@@ -31,7 +31,7 @@ Alcune funzionalità previste sono ancora in fase di dev o test:
 - [ ] sonogrammi
  
 
-### Referenze
+### Riferimenti
 
 \[1\] [LEGGE 26 ottobre 1995, n. 447 "Legge quadro sull'inquinamento acustico"](https://www.gazzettaufficiale.it/eli/id/1995/10/30/095G0477/sg)
 
