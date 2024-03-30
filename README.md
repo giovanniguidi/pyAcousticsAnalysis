@@ -26,7 +26,7 @@ Alcune funzionalità previste sono ancora in fase di dev o test:
 - [x] calcoli Leq mascherato e non mascherato
 - [x] ricerca componenti tonali e impulsive
 - [x] creazione di report in pdf (tramite pdflatex)
-- [] calcolo T60
+- [ ] calcolo T60
 - [ ] creazione report requisiti acustici passivi
 - [ ] sonogrammi
  
