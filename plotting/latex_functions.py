@@ -4,7 +4,7 @@ from PIL import Image
 from pypdf import PdfWriter
 import glob
 
-def create_latex(templates_folder, reports_folder):
+def create_pdfs(templates_folder, reports_folder):
 
 #    out_filename = "misure.pdf"
     
@@ -74,7 +74,7 @@ def merge_pdfs(reports_folder, out_filename = "misure.pdf"):
     
     pdfs_folder = os.path.join(reports_folder, "pdfs")
 
-    pdf_filenames = [x for x in os.listdir(pdfs_folder) if x.endswith(".pdf")]
+    pdf_filenames = sorted([x for x in os.listdir(pdfs_folder) if x.endswith(".pdf")])
 
     merger = PdfWriter()
 
