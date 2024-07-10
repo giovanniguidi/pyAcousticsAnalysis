@@ -74,7 +74,11 @@ def merge_pdfs(reports_folder, out_filename = "misure.pdf"):
     
     pdfs_folder = os.path.join(reports_folder, "pdfs")
 
-    pdf_filenames = sorted([x for x in os.listdir(pdfs_folder) if x.endswith(".pdf")])
+#    pdf_filenames = sorted([x for x in os.listdir(pdfs_folder) if x.endswith(".pdf")])
+
+    pdf_filenames = [os.path.join(pdfs_folder, x) for x in os.listdir(pdfs_folder) if x.endswith(".pdf")]
+    pdf_filenames.sort(key=lambda x: os.path.getmtime(x))
+    pdf_filenames = [x.split("/")[-1] for x in pdf_filenames]
 
     merger = PdfWriter()
 
